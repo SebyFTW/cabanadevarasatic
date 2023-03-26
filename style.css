@@ -158,6 +158,13 @@ p{
 	
 }
 
+a{
+	font-size: 25px;
+	font-weight: 600;
+	text-decoration: none;
+	color: skyblue;
+}
+
 .row{
 	margin-top:5% ;
 	display: inline-flex;
@@ -177,9 +184,11 @@ p{
 	transition: 0.5s;
 }
 
+
 .course-col:hover{
 	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
 }
+
 
 @media(max-width: 700px){
 	.row{
